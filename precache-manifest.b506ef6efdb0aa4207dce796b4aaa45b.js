@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "54cf31201ffa1df58dbee87e7b796727",
+    "revision": "9c039111825dbfad2b79cae69beb6268",
     "url": "/Ambient-Music/index.html"
   },
   {
-    "revision": "a4b8307bcb7c0dce47e1",
+    "revision": "064a006f7eb569db6c77",
     "url": "/Ambient-Music/static/css/main.6a8a57f6.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Ambient-Music/static/js/2.bcf81c76.chunk.js.LICENSE"
   },
   {
-    "revision": "a4b8307bcb7c0dce47e1",
-    "url": "/Ambient-Music/static/js/main.9e5bf899.chunk.js"
+    "revision": "064a006f7eb569db6c77",
+    "url": "/Ambient-Music/static/js/main.c4b18bff.chunk.js"
   },
   {
     "revision": "f2510becba352a3df88c",
