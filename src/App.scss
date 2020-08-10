@@ -67,6 +67,7 @@ a {
             transition: all $anim-duration linear;
             text-align: center;
             position: relative;
+            background-color: $background-color-primary;
 
             nav {
                 display: block;
@@ -114,7 +115,7 @@ a {
     position: fixed;
     left: 0;
     right: 0;
-    top: -50px;
+    top: -75px;
     background-color: $background-color-primary;
     color: white;
     padding: 0 64px;
@@ -251,7 +252,7 @@ a {
 
         .quote {
             margin-top: 48px; 
-
+            
             :nth-child(1){
                 font-size: 20px;
 
@@ -270,6 +271,7 @@ a {
                 text-align: right;
                 font-style: italic;
                 opacity: .75;
+                line-height: 1.2em;
 
                 &:before {
                     content: "- ";
