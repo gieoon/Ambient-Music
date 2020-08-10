@@ -30,7 +30,7 @@ export default function FloatingHeader(){
             var el = document.getElementById(targets[i]);
             if((el.offsetTop + el.offsetHeight > window.scrollY)){
                 setActiveLink(i);
-                console.log('set active link, ', i)
+                // console.log('set active link, ', i)
                 return;
             }
         }
