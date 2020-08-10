@@ -1,3 +1,9 @@
+@media only screen and (max-width: 369px){
+    .FloatingHeader {
+        top: -200px!important;
+    }    
+}
+
 @media only screen and (max-width: 769px){
     body {
         overflow-x: hidden;
@@ -19,6 +25,12 @@
 
             #headerNav {
                 margin-top: 0px;
+
+                nav {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                }
             }
         }
 
@@ -26,7 +38,12 @@
 
     .FloatingHeader {
         &.active {
-            height: 4rem!important;
+            // height: 4rem!important;
+            height: fit-content;
+        }
+
+        .header-inner {
+            padding-bottom: 4px!important;
         }
     }
 }

@@ -67,7 +67,6 @@ a {
             transition: all $anim-duration linear;
             text-align: center;
             position: relative;
-            background-color: $background-color-primary;
 
             nav {
                 display: block;
@@ -115,7 +114,7 @@ a {
     position: fixed;
     left: 0;
     right: 0;
-    top: -75px;
+    top: -100px;
     background-color: $background-color-primary;
     color: white;
     padding: 0 64px;

@@ -19,7 +19,7 @@ export default function FloatingHeader(){
       };
       
     function windowScroll() {
-        floatingHeaderRef.current.classList.toggle("active", document.documentElement.scrollTop > 100);
+        floatingHeaderRef.current.classList.toggle("active", document.documentElement.scrollTop > 125);
     }
 
     // Highlight a link based on scroll position
